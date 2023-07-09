@@ -1,0 +1,36 @@
+.action-call-container {
+  display: flex;
+  flex-direction: column;
+  padding-block: 6rem;
+  background-size: cover;
+  align-items: center;
+  background-image: url(../../Media/images/bg-boost-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: var(--dark-violet-bg);
+  background-position: center;
+}
+.action-call-container h2 {
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.6rem;
+}
+.action-call-container button {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.8rem 2.5rem;
+}
+@media only screen and (min-width: 1000px) {
+  .action-call-container {
+    background-image: url(../../Media/images/bg-boost-desktop.svg);
+    background-size: cover;
+    padding-block: 3rem;
+  }
+  .action-call-container h2 {
+    font-size: 2rem;
+  }
+  .action-call-container button {
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+  }
+}
