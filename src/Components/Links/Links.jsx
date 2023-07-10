@@ -22,12 +22,12 @@ const Links = ({ data }) => {
         ? data.map((item, i) => (
             <li key={i}>
               <div className="link-li">
-                <a className="long-link" href={item.long} target="_blank">
+                <a className="long-link" href={item.long} rel="noreferrer" target="_blank">
                   {item.long}
                 </a>
                 <hr />
                 <div>
-                  <a className="short-link" href={item.short} target="_blank">
+                  <a className="short-link" href={item.short} rel="noreferrer" target="_blank">
                     {item.short}
                   </a>
                   <button
