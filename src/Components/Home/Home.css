@@ -47,6 +47,7 @@
     flex-direction: row-reverse;
   }
   .hero-text {
+    display: block;
     margin-left: 10vw;
     margin-top: 15vh;
     text-align: left;
