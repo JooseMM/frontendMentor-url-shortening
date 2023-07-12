@@ -20,7 +20,10 @@
   font-weight: 700;
   padding: 0.8rem 2.5rem;
 }
-@media only screen and (min-width: 1000px) {
+.action-call-container button:hover {
+  opacity: 1;
+}
+@media only screen and (min-width: 680px) {
   .action-call-container {
     background-image: url(../../Media/images/bg-boost-desktop.svg);
     background-size: cover;
@@ -32,5 +35,8 @@
   .action-call-container button {
     padding: 0.6rem 2.5rem;
     font-size: 1rem;
+  }
+  .action-call-container button:hover {
+    background-color: rgb(155, 227, 226);
   }
 }

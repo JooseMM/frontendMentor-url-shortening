@@ -10,6 +10,9 @@
   margin-top: 0.5rem;
 }
 .hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding-inline: var(--padding-inline-mobile);
 }
@@ -17,6 +20,7 @@
   color: var(--gray-font-color);
   margin-bottom: 1.5rem;
   line-height: 1.8rem;
+  max-width: 500px;
 }
 .hero-text h1 {
   font-size: 2.4rem;
@@ -29,6 +33,7 @@
   font-weight: 700;
   font-size: 1rem;
   margin: 0;
+  margin-bottom: 5rem;
   padding: 0.8rem 2.5rem;
 }
 @media only screen and (min-width: 1000px) {
@@ -58,9 +63,10 @@
   .hero-img {
     /* border-style: solid; */
     margin-top: 7vh;
-    background-size: 45vw;
+    margin-bottom: 4.5rem;
+    background-size: 90vh;
     background-position-x: 10vw;
-    height: 55vh;
+    height: 65vh;
   }
   .hero-text button {
     padding: 0.6rem 2rem;

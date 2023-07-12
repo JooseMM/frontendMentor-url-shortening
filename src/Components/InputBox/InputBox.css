@@ -1,6 +1,5 @@
 input[type="url"] {
   border: none;
-  /* margin-bottom: 1rem; */
   border-radius: 0.3rem;
   padding: 0.9rem 1rem;
   width: 100%;
@@ -12,7 +11,7 @@ input[type="url"] {
 }
 .input-container {
   position: relative;
-  margin-top: 5rem;
+  /* margin-top: 2rem; */
   margin-inline: var(--margin-inline-mobile);
   background-image: url(../../Media/images//bg-shorten-mobile.svg);
   background-color: var(--dark-violet-bg);
@@ -25,7 +24,7 @@ input[type="url"] {
 .input-container form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   padding: 1.2rem;
 }
 input::placeholder {
@@ -40,6 +39,10 @@ input::placeholder {
   font-weight: 700;
   font-size: 1rem;
 }
+.input-container button:hover {
+  opacity: 1;
+}
+
 input:invalid {
   border: 3px solid rgb(255, 122, 122);
   color: rgb(215, 105, 105);
@@ -55,11 +58,12 @@ input:invalid ~ span {
   display: block;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 680px) {
   .input-container {
     margin-inline: var(--padding-inline-desktop);
     background-image: url(../../Media/images/bg-shorten-desktop.svg);
     background-size: 120%;
+    background-size: cover;
     background-position: 50% 20%;
   }
   .input-container form {
@@ -70,9 +74,14 @@ input:invalid ~ span {
   .input-container button {
     margin: 0;
     padding: 0;
-    width: 15%;
-    margin-left: 1rem;
+    max-width: 20%;
+    margin-left: 2vw;
     padding-block: 0.9rem;
+    /* font-size: clamp(9px, 2vw, 1rem); */
+    font-size: 1rem;
+  }
+  .input-container button:hover {
+    background-color: rgb(155, 227, 226);
   }
   input[type="url"] {
     margin: 0;
@@ -81,7 +90,7 @@ input:invalid ~ span {
   form > div {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 80%;
     margin: 0;
   }
   form span {

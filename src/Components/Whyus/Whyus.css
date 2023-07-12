@@ -11,6 +11,7 @@
 
 .whyus-container p {
   margin-bottom: 2.5rem;
+  max-width: 500px;
 }
 
 .whyus-container h2 {
@@ -36,6 +37,7 @@
   margin-block: 2.5rem;
   position: relative;
   z-index: 100;
+  max-width: 500px;
 }
 .box p {
   font-size: 0.9rem;

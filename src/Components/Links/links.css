@@ -50,7 +50,7 @@ hr ~ div {
   opacity: 1;
   cursor: default;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 680px) {
   .links-list {
     padding-inline: 0;
   }
@@ -69,7 +69,7 @@ hr ~ div {
     margin: 0;
   }
   .long-link {
-    max-width: 60%;
+    max-width: 50%;
   }
   .link-li button {
     margin: 0;
