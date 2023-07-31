@@ -12,7 +12,7 @@ const InputBox = ({ fetch, input, setInput }) => {
           onSubmit={
             input === "" || null || undefined
               ? (e) => {
-                  alert(`Form is${input}, please provide a link`);
+                  alert(`Form is empty, please provide a link`);
                   e.preventDefault();
                 }
               : handleSubmit
