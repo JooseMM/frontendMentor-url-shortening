@@ -36,8 +36,4 @@ const InputBox = ({ fetch, input, setInput }) => {
 };
 export default InputBox;
 
-//test link:
-// https://drive.google.com/file/d/1K6zkr8mJYe5VeKR6z7_FP2CeesxKfWgz/view?usp=sharing
-// https://drive.google.com/file/d/1YL2tBJz5nr2QJ_72UgNvU27sZOFReEF9/view?usp=sharing
-// https://drive.google.com/file/d/1qQOoJZ4TdBxEw0DRCpjbJz0dqpHpb3I9/view?usp=sharing
-// https://drive.google.com/file/d/1fnsp44EiPNtbHiO25Msw4UhVugSmeinp/view?usp=sharing
+
